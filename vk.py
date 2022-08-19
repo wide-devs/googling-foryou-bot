@@ -1,8 +1,8 @@
 from vkbottle.bot import Bot, Message
 from vkbottle.dispatch.rules.base import ReplyMessageRule
-from config import keywords, token
+from config import keywords, vktoken
 
-bot = Bot(token)
+bot = Bot(vktoken)
 
 
 @bot.on.message(ReplyMessageRule(), text=["google", "гугл", "погугли", "загугли"])

@@ -1,8 +1,8 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
-from config import keywords, token
+from config import keywords, tgtoken
 
-bot = Bot(token)
+bot = Bot(tgtoken)
 dp = Dispatcher(bot)
 
 
